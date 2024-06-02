@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class NumerosIguais {
+public class NumerosIguais2 {
     public static void main(String [] args) {
         Scanner scanner = new Scanner(System.in);
         int [] vetor = new int [15];

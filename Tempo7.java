@@ -1,4 +1,5 @@
-public class Tempo {
+import java.util.Scanner;
+public class Tempo7 {
 
     public static int converterParaSegundos(int horas, int minutos, int segundos) {
         if (horas < 0 || minutos < 0 || segundos < 0) {

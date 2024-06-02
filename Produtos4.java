@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Produtos {
+public class Produtos4 {
     private static final int NUM_PRODUTOS = 5; // static final em vez de final int
 
     private String[] nomesProdutos = new String[NUM_PRODUTOS];
@@ -45,7 +45,7 @@ public class Produtos {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Produtos analisador = new Produtos();
+        Produtos4 analisador = new Produtos4();
         analisador.lerDados(scanner);
         analisador.analisarPrecos();
         scanner.close();

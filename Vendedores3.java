@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Vendedores {
+public class Vendedores3 {
 
     private static int NumeroVendedores = 10; // Nome da variável alterado
     private double[] vendas = new double[NumeroVendedores];
@@ -44,7 +44,7 @@ public class Vendedores {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Vendedores relatorio = new Vendedores();
+        Vendedores3 relatorio = new Vendedores3();
         relatorio.lerDados(scanner);
         relatorio.gerarRelatorio();
         scanner.close();

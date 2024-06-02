@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Vetores {
+public class Vetores5 {
 
     // Função auxiliar para verificar se um número é primo (da "lista 3")
     public static boolean Primo(int numero) {
